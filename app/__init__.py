@@ -17,7 +17,7 @@ def create_app(config_name):
     Migrate(app,db)
     JWTManager(app)
     
-    app = Api(app)
+    api = Api(app)
 
     #aqui van las rutas
     #api.add_resouce()
